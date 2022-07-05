@@ -10,7 +10,7 @@ export const NavBar = () => {
   ];
 
   return (
-    <section style={{ background: 'lightgray'}} className="NavBar">
+    <section className="NavBar">
       {categories.map((cat) => {
         return (
           <Link to={cat.address} className="links" key={cat.id}>

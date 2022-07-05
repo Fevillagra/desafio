@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 .card {
@@ -15,7 +16,7 @@
     text-align: center;
     width: 450px;
     border-radius: 5px;
-    background-color: coral;
+    background-color: #B71C1C;
     margin: 1rem;
     box-shadow: 5px 5px 1px grey;
 }
@@ -26,8 +27,10 @@
 
 .NavBar {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    background-color: #EF5350;
     font-size: 1.5rem;
+    width: 100%;
 }
 
 .NavBar a {
@@ -47,4 +50,29 @@
 .loading {
     font-size: 3rem;
     color: green;
+}
+
+.item-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.divcontainer {
+    border: 1px solid red;
+    background-color: coral;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.item-dail__div {
+    width: 450px;
+    margin: 10px;
+}
+
+.item-detail__img {
+    width: 100%;
+}
+
+.item-detail__container {
+    margin-left: 1rem;
 }
